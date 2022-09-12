@@ -1,0 +1,43 @@
+
+header {
+    text-align: center;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+nav li{
+    list-style: none;
+    background-color: rgb(145, 57, 57);
+    margin: 12px;
+    padding: 0px;
+    border-radius: 10px;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: bisque;
+    padding: 10px;
+    display: block;
+}
+@media (max-width: 1000px){
+    nav ul{
+        width: 100%;
+        display: block;
+        flex-direction: column;
+    }
+    nav li{
+        padding: 0px;
+
+    }
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+img{
+    float: center;
+}
+link {
+   
+}
